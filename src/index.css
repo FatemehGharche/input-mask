@@ -11,6 +11,7 @@ body {
   position: relative;
   width: 250px;
   margin: 200px auto;
+  margin-bottom: 40px;
 }
 
 
@@ -41,9 +42,12 @@ body {
   letter-spacing: 2px;
 }
 
-
-.suggestion {
-  margin-top: 10px;
-  font-size: 16px;
-  color: #333;
+.success-message {
+  color: white;
+  background-color: rgba(34, 107, 34, 0.43);
+  font-weight: bold;
+  width: 250px;
+  margin: auto;
+  text-align: center;
 }
+
